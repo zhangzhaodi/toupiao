@@ -1,0 +1,227 @@
+.index-banner{
+    width:100%;
+    min-width:6.4rem;
+    height:auto;
+    min-height:6rem;
+    background: rgb(115,190,247);
+    background-size: cover;
+    position: relative;
+    margin-top: 0;
+}
+.index-nav .nav-text{
+    padding:0.1rem 0.2rem;
+    font-size:0.25rem;
+}
+.index-nav .nav-text a{
+    text-decoration: blink;
+}
+.index-tit{
+    width: 4rem;
+    height: 3rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:0.4rem auto;
+}
+.index-top-btn{
+    position: absolute;
+    width:2rem;
+    height:0.6rem;
+    left:0;
+    right:0;
+    margin: auto;
+    bottom:2.2rem;
+}
+.index-btn{
+    width:100%;
+    height:100%;
+    color: #fff;
+    background: orange;
+    border:0;
+    -webkit-box-shadow: #666 0.02rem 0.05rem 0.05rem;
+    border-radius: 0.7rem;
+}
+.index-top-inp{
+    width: 5rem;
+    height:auto;
+    position: absolute;
+    bottom:0.8rem;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.index-inp{
+    width:80%;
+    height:0.5rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+.index-form-btn{
+    width:20%;
+    height:0.5rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    background: rgb(65,162,231);
+    line-height: 0.25rem;
+}
+
+.index-messages{
+    width:100%;
+    height:auto;
+    position: relative;
+    
+}
+.index-messages ul{
+    width: 100%;
+    height:100%;
+}
+.index-messages-item{
+    width:100%;
+    height: 1.65rem;
+    margin-top: 0.1rem;
+    background: #ffffff;
+}
+.tx{
+    width:1rem;
+    height:1.1rem;
+    /*padding:0.2rem;*/
+}
+.tx img{
+    width:1rem;
+    height:1rem;
+    border-radius: 50%;
+    padding:0.2rem;
+}
+.name{
+    width:5.4rem;
+    height:auto;
+    /*padding:0.3rem 0.2rem;*/
+}
+.name .name-tit{
+    font-size:0.25rem;
+    width: 100%;
+    /*margin-top: 0.4rem;*/
+    /*padding:0.4rem 0 0 0.4rem;*/
+    /*margin-left: 0.4rem;*/
+}
+.name .name-tit .name-tit-l{
+    padding:0.4rem 0 0 0.4rem;
+}
+.name .name-tit span{
+    color:#888;
+}
+.name .name-tit .name-tit-r{
+    padding:0.4rem 1rem 0 0;
+}
+.name .name-tit .name-tit-r .name-tit-r-t{
+    color: orange;
+}
+.name .name-cont{
+    width:100%;
+    font-size:0.25rem;
+    color:#888;
+    /*margin-left: 0.4rem;*/
+}
+.name .name-cont .name-cont-t{
+    width:60%;
+}
+.name .name-cont .name-cont-t .name-cont-t-text{
+    width:100%;
+    overflow: hidden;
+    padding-left:0.4rem;
+    margin-top: 0.1rem;
+}
+.name .name-cont .name-cont-btn{
+    width:35%;
+    margin-top: -0.3rem;
+}
+.name .name-cont .name-cont-btn button{
+    width:80%;
+    height:0.5rem;
+    border-radius:0.5rem;
+    background: rgb(65,162,231);
+    line-height: 0.25rem;
+}
+
+
+
+/*two*/
+.sign-banner{
+    width:100%;
+    min-width:6.4rem;
+    height:auto;
+    min-height:4rem;
+    background: url("../images/index-bg.png")no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 0;
+}
+.sign-tit{
+    width: 4rem;
+    height: 3rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:0.4rem auto;
+}
+.sign-form{
+    width:100%;
+    height:auto;
+}
+.sign-form .form-group{
+    width:100%;
+    height:auto;
+}
+.sign-form .form-group .form-cont{
+    font-size: 0.3rem;
+    /*width:100%;*/
+    padding:0.2rem 0.5rem;
+    color: #ffffff;
+}
+.sign-form .form-group .label{
+    font-size: 0.28rem;
+    width:100%;
+    color: rgb(115,190,247);
+    font-family: '微软雅黑';
+    font-weight: 500;
+    padding-bottom: 0.1rem;
+}
+.sign-form .form-group .form-inp{
+    width:100%;
+    height:0.4rem;
+    border-radius: 0.1rem;
+    border:1px solid rgb(115,190,247);
+    color: #888;
+    font-size: 0.25rem;
+    text-indent: 0.15rem;
+}
+.sign-form .form-group .form-rad{
+    line-height: 0.4rem;
+}
+.sign-form .form-group .form-rad input{
+    color: rgb(115,190,247);
+    background:  rgb(115,190,247);
+    border:1px solid rgb(115,190,247);
+}
+.sign-form .form-group .form-rad span{
+    color: #000000;
+    font-size: 0.25rem;
+    font-weight: 500;
+    font-family: '微软雅黑';
+    margin-top:-0.1rem;
+    margin-left:0.2rem;
+}
+.sign-form .form-group .form-btn{
+    text-align: center;
+}
+.sign-form .form-group .form-btn button{
+    background: rgb(115,190,247);
+    width:1.5rem;
+    height:0.5rem;
+    border-radius: 0.25rem;
+    line-height: 0.25rem;
+}
+
+
